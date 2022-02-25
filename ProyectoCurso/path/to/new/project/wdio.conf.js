@@ -156,11 +156,11 @@ exports.config = {
     //Servicio de  Chomdriver
     //services: ['chromedriver'],
     //services: ['selenium-standalone'],
-    services: ['browserstack'],
+    //services: ['browserstack'],
 
     
     
-    /*
+    
     services: [
         ['chromedriver', {
             logFileName: 'wdio-chromedriver.log', // default
@@ -169,7 +169,7 @@ exports.config = {
             chromedriverCustomPath:'C:\\chromedriver.exe'
         }]
     ],
-    */
+    
 
     
    
