@@ -74,6 +74,12 @@ git remote add origin https://github.com/UdemyRodrigo/Webdriver_curso_1.git
 git branch -M Master
 git push -u origin Master
 
+Correr Jenkins ->  npx wdio run wdio.conf.js --spec  ./test/specs/toExist.js
+
+ npx wdio  --spec  ./test/specs/toExist.js
+
+ npx wdio ./test/specs/toExist.js
+
 
 
 
