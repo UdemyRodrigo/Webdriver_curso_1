@@ -103,9 +103,85 @@ class FG{
         await $(sel).setValue(remoteFile)
     }
 
-    async EjecutaKey(ke,ti=t){
-        return browser.keys(ke)
+    async Faker_Name(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.name.firstName()), browser.pause(ti)
     }
+
+    async Faker_Apellido(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.name.lastName()), browser.pause(ti)
+    }
+
+    async Faker_Email(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.internet.email()), browser.pause(ti)
+    }
+
+    async Faker_Phone(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.phone.phoneNumber()), browser.pause(ti)
+    }
+
+    async Faker_Lorem(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.lorem.sentences()), browser.pause(ti)
+    }
+
+    async Faker_Calle(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.address.streetAddress()), browser.pause(ti)
+    }
+
+    async Faker_Title(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.name.title()), browser.pause(ti)
+    }
+
+    async Faker_Trabajo(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.name.jobArea()), browser.pause(ti)
+    }
+
+    async Faker_Entero(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.random.number()), browser.pause(ti)
+    }
+
+    async Faker_Float(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.random.float()), browser.pause(ti)
+    }
+
+    async Faker_URL(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.internet.url()), browser.pause(ti)
+    }
+
+    async Faker_password(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.internet.password()), browser.pause(ti)
+    }
+
+    async Faker_Empresa(sel,ti=t){
+        let tn=await $(sel)
+        await tn.waitForExist({ timeout: 8000 });
+        return tn.setValue(faker.company.companyName()), browser.pause(ti)
+    }
+
+   
 
    
     
