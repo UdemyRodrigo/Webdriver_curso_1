@@ -1,0 +1,304 @@
+"web_url": {
+
+        "prefix": "we_url",
+
+    "body": [       
+
+        "await browser.url('${1:url}')",
+
+        "await browser.maximizeWindow()",
+
+        "await browser.pause(${2:tiempo})",
+
+        "await expect(browser).toHaveTitle('${3:titulo}')",
+
+        ],
+
+    "description": "WebdriverIO Iniciando URL"
+
+    },
+
+    
+
+    "web_pause": {
+
+        "prefix": "we_pause",
+
+    "body": [       
+
+        "await browser.pause(${1:tiempo})",
+
+       
+
+        ],
+
+    "description": "WebdriverIO Pause"
+
+    },
+
+    "web_setValue": {
+
+        "prefix": "we_setValue",
+
+    "body": [       
+
+        "await $(${1:selector}).setValue('${2:Valor}')"
+
+       
+
+        ],
+
+    "description": "WebdriverIO setValue"
+
+    },
+
+    "web_click": {
+
+        "prefix": "we_click",
+
+    "body": [       
+
+        "await $(${1:selector}).click()"
+
+        ],
+
+    "description": "WebdriverIO Click"
+
+    },
+
+    "web_click_xy": {
+
+        "prefix": "we_click_xy",
+
+    "body": [       
+
+        "await $(${1:selector}).click({x:${2:valorx},y:${3:valory}})"
+
+        ],
+
+    "description": "WebdriverIO Click_xy"
+
+    },
+
+    "web_Var": {
+
+        "prefix": "we_Var",
+
+    "body": [       
+
+        "let ${1:variable}=await $('${2:selector}')",
+
+        "await ${1:variable}.scrollIntoView();"
+
+        ],
+
+    "description": "WebdriverIO Creando Variable"
+
+    },
+
+    "web_setValueScree": {
+
+        "prefix": "web_setValueScree",
+
+    "body": [       
+
+        "let ${1:variable}=await $('${2:selector}')",
+
+        "await ${1:variable}.scrollIntoView()",     
+
+        "${1:variable}.setValue('${3:texto}')",
+
+        "await browser.pause(t)",
+
+        "await ${1:variable}.saveScreenshot('./ScreeShot/${4:name_screen}.png');",
+
+        "await browser.pause(t)"
+
+        ],
+
+    "description": "WebdriverIO SetValue con ScreenShot"
+
+    },
+
+    "web_name": {
+
+        "prefix": "we_Faker_name",
+
+    "body": [       
+
+        "faker.name.firstName()"
+
+        ],
+
+    "description": "Faker Nombre"
+
+    },
+
+    "web_last_name": {
+
+        "prefix": "we_Faker_last_name",
+
+    "body": [       
+
+        "faker.name.lastName()"
+
+        ],
+
+    "description": "Faker Apellido"
+
+    },
+
+    "web_email": {
+
+        "prefix": "we_Faker_email",
+
+    "body": [       
+
+        "faker.internet.email()"
+
+        ],
+
+    "description": "Faker email"
+
+    },
+
+    "web_Faker_Phone": {
+
+        "prefix": "we_Faker_Phone",
+
+    "body": [       
+
+        "faker.phone.phoneNumber()"
+
+        ],
+
+    "description": "Faker Phone"
+
+    },
+
+    "web_Faker_calle": {
+
+        "prefix": "we_Faker_calle",
+
+    "body": [       
+
+        "faker.address.streetAddress()"
+
+        ],
+
+    "description": "Faker Calle"
+
+    },
+
+    "web_Faker_Title": {
+
+        "prefix": "we_Faker_Title",
+
+    "body": [       
+
+        "faker.name.title()"
+
+        ],
+
+    "description": "Faker Titulo"
+
+    },
+
+    "web_Faker_Trabajo": {
+
+        "prefix": "we_Faker_Trabajo",
+
+    "body": [       
+
+        "faker.name.jobArea()"
+
+        ],
+
+    "description": "Faker Trabajo"
+
+    },
+
+    "web_Faker_Numero_Entero": {
+
+        "prefix": "we_Faker_Numero_Entero",
+
+    "body": [       
+
+        "faker.random.number()"
+
+        ],
+
+    "description": "Faker Numero Entero"
+
+    },
+
+    "web_Faker_Numero_Flotante": {
+
+        "prefix": "we_Faker_Numero_Flotante",
+
+    "body": [       
+
+        "faker.random.float()"
+
+        ],
+
+    "description": "Faker Numero Flotante"
+
+    },
+
+    "web_Faker_Lorem": {
+
+        "prefix": "we_Faker_Lorem",
+
+    "body": [       
+
+        "faker.lorem.sentences()"
+
+        ],
+
+    "description": "Faker Lorem"
+
+    },
+
+    "web_Faker_URL": {
+
+        "prefix": "we_Faker_URL",
+
+    "body": [       
+
+        "faker.internet.url()"
+
+        ],
+
+    "description": "Faker URL"
+
+    },
+
+    "web_Faker_Password": {
+
+        "prefix": "we_Faker_Password",
+
+    "body": [       
+
+        "faker.internet.password()"
+
+        ],
+
+    "description": "Faker Password"
+
+    },
+
+    "web_Faker_Empresa": {
+
+        "prefix": "we_Faker_Empresa",
+
+    "body": [       
+
+        "faker.company.companyName()"
+
+        ],
+
+    "description": "Faker Empresa"
+
+    },
+

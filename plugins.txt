@@ -1,0 +1,78 @@
+1.-Material icon theme
+2.-Prettier - Code formatter
+3.-Es6 Mocha Snippets
+4.-ESLint
+5.-Bracket Pair Colorizer
+6.-Terminal
+
+
+
+Comando
+Correr un solo archivo.
+npx wdio run wdio.conf.js --spec  toExist.js
+
+
+Paralelo
+npx wdio
+
+Selenium standalone
+https://webdriver.io/docs/selenium-standalone-service/
+
+Instalar.
+npm install @wdio/selenium-standalone-service --save-dev
+
+
+Reportes.
+Instalar en base.
+npm install @wdio/allure-reporter --save-dev
+
+2.- npm i allure-commandline      -->en Base
+
+3.-npx allure generate --clean allure-results && npx allure open
+
+
+
+
+
+
+Video reporter 
+npm install wdio-video-reporter
+2.- agregar libreria   --> const video = require('wdio-video-reporter');
+
+npx allure open
+
+
+##suites###
+npx wdio --suite  BloqueUno 
+npx wdio --suite  BloqueUno  --suite  BloqueDos  
+npx wdio --suite  BloqueUno  --suite  BloqueDos   --suite  BloqueTres
+
+#####  Faker   #####
+
+https://www.npmjs.com/package/faker/v/5.5.3
+
+npm i faker@5.5.3
+
+
+//Browserstack
+https://www.browserstack.com/docs/automate/selenium/getting-started/nodejs/webdriverio
+
+set BROWSERSTACK_USERNAME=rodrigovillanuev_YIqUXa
+set  BROWSERSTACK_ACCESS_KEY=1J42yJXsgTzpAP5i4n3x 
+
+npx wdio run wdio.conf.js --spec  Carga_Base.js  
+
+
+####### Git Hub ###########
+Correo-> PruebasUdemyRodrigo13@gmail.com
+pass-> la de siempre
+
+username-> UdemyRodrig
+
+
+
+
+        
+
+
+

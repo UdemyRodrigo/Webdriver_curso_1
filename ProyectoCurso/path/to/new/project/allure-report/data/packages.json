@@ -1,0 +1,111 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Práctica de Carga",
+    "children" : [ {
+      "name" : "Prueba uno Carga",
+      "uid" : "e3db0186c16d9320",
+      "parentUid" : "146f4d97b07edfff8caf22b6333c7ef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645744908772,
+        "stop" : 1645744920880,
+        "duration" : 12108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 10,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102", "98.0.4758.102" ]
+    }, {
+      "name" : "Prueba dos Carga",
+      "uid" : "e27e94f01a0cd7bf",
+      "parentUid" : "146f4d97b07edfff8caf22b6333c7ef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645744920883,
+        "stop" : 1645744932676,
+        "duration" : 11793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 10,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102", "98.0.4758.102" ]
+    }, {
+      "name" : "Prueba tres Carga",
+      "uid" : "23889da4c1e1c9fc",
+      "parentUid" : "146f4d97b07edfff8caf22b6333c7ef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645744932679,
+        "stop" : 1645744957387,
+        "duration" : 24708
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 10,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102", "98.0.4758.102" ]
+    }, {
+      "name" : "Prueba uno Carga",
+      "uid" : "c9fd5488d4ce51bf",
+      "parentUid" : "146f4d97b07edfff8caf22b6333c7ef9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645748614370,
+        "stop" : 1645748646338,
+        "duration" : 31968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    }, {
+      "name" : "Prueba dos Carga",
+      "uid" : "eeee85cb62e167da",
+      "parentUid" : "146f4d97b07edfff8caf22b6333c7ef9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645748646342,
+        "stop" : 1645748667690,
+        "duration" : 21348
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    }, {
+      "name" : "Prueba tres Carga",
+      "uid" : "1e4b3eda9de95ff1",
+      "parentUid" : "146f4d97b07edfff8caf22b6333c7ef9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645748667703,
+        "stop" : 1645748727736,
+        "duration" : 60033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    } ],
+    "uid" : "146f4d97b07edfff8caf22b6333c7ef9"
+  } ]
+}

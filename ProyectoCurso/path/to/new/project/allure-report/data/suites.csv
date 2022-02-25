@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 24 17:22:12 CST 2022","Thu Feb 24 17:22:37 CST 2022","24708","","Práctica de Carga","","Práctica de Carga","Prueba tres Carga","Prueba tres Carga",""
+"broken","Thu Feb 24 18:24:27 CST 2022","Thu Feb 24 18:25:27 CST 2022","60033","","Práctica de Carga","","Práctica de Carga","Prueba tres Carga","Prueba tres Carga",""
+"passed","Thu Feb 24 17:22:00 CST 2022","Thu Feb 24 17:22:12 CST 2022","11793","","Práctica de Carga","","Práctica de Carga","Prueba dos Carga","Prueba dos Carga",""
+"passed","Thu Feb 24 17:21:48 CST 2022","Thu Feb 24 17:22:00 CST 2022","12108","","Práctica de Carga","","Práctica de Carga","Prueba uno Carga","Prueba uno Carga",""
+"passed","Thu Feb 24 18:23:34 CST 2022","Thu Feb 24 18:24:06 CST 2022","31968","","Práctica de Carga","","Práctica de Carga","Prueba uno Carga","Prueba uno Carga",""
+"broken","Thu Feb 24 18:24:06 CST 2022","Thu Feb 24 18:24:27 CST 2022","21348","","Práctica de Carga","","Práctica de Carga","Prueba dos Carga","Prueba dos Carga",""

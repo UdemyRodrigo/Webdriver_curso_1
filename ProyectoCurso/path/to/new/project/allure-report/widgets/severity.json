@@ -1,0 +1,61 @@
+[ {
+  "uid" : "e27e94f01a0cd7bf",
+  "name" : "Prueba dos Carga",
+  "time" : {
+    "start" : 1645744920883,
+    "stop" : 1645744932676,
+    "duration" : 11793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9fd5488d4ce51bf",
+  "name" : "Prueba uno Carga",
+  "time" : {
+    "start" : 1645748614370,
+    "stop" : 1645748646338,
+    "duration" : 31968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eeee85cb62e167da",
+  "name" : "Prueba dos Carga",
+  "time" : {
+    "start" : 1645748646342,
+    "stop" : 1645748667690,
+    "duration" : 21348
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "23889da4c1e1c9fc",
+  "name" : "Prueba tres Carga",
+  "time" : {
+    "start" : 1645744932679,
+    "stop" : 1645744957387,
+    "duration" : 24708
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3db0186c16d9320",
+  "name" : "Prueba uno Carga",
+  "time" : {
+    "start" : 1645744908772,
+    "stop" : 1645744920880,
+    "duration" : 12108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e4b3eda9de95ff1",
+  "name" : "Prueba tres Carga",
+  "time" : {
+    "start" : 1645748667703,
+    "stop" : 1645748727736,
+    "duration" : 60033
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
