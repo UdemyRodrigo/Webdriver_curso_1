@@ -33,7 +33,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/**/Carga_Ba*.js'
+        './test/specs/**/*.js'
         //'./test/specs/Carga/**/*.js'
         //'./test/specs/Paralelo/**/*.js'
     ],
