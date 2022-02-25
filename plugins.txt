@@ -67,7 +67,12 @@ npx wdio run wdio.conf.js --spec  Carga_Base.js
 Correo-> PruebasUdemyRodrigo13@gmail.com
 pass-> la de siempre
 
-username-> UdemyRodrig
+git config --global user.name "Rodrigo"
+git config --global user.email "PruebasUdemyRodrigo13@gmail.com"
+
+git remote add origin https://github.com/UdemyRodrigo/Webdriver_curso_1.git
+git branch -M Master
+git push -u origin Master
 
 
 

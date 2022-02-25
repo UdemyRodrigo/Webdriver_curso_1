@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//input[contains(@id,'wsf-1-field-23')]"
-}

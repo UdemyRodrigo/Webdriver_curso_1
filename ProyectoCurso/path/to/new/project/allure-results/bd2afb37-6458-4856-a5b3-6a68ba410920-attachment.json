@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//textarea[contains(@id,'wsf-1-field-28')]"
-}
